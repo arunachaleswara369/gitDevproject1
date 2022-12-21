@@ -1,0 +1,17 @@
+{
+	"name": "blobDS1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kvLS1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secretdevproject11"
+			}
+		}
+	}
+}
